@@ -39,7 +39,7 @@ def show():
 
 def edit(name):
 	name = name.capitalize()
-	print(name)
+	print(name) 
 	editing = [i for i, v in enumerate(con_list) if v[0] == name]
 	print(editing)
 	new_days = int(input("\nHow many days?\n› "))
